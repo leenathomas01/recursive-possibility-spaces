@@ -35,6 +35,16 @@ Changed:
 
 **Interpretation:** some bounded accessibility shifts are observable; the toy does not establish an ontological 'molt', self-directed RSI, generalization, or overall progress. The task order is seedable, but the set is fixed.
 
+## 2026-11-04 — Circuit-library connection (Zee's uploaded archive; Sol synthesis)
+
+Source: user-provided `circuit-library.zip` (separate speculative design note, self-labelled MIT in its source metadata; not imported here).
+
+Added: [Circuit libraries as cross-regime memory](../connections/circuit-libraries-and-molting.md).
+
+The source considered a library of parameter edits, circuit constructions, methods, failed entries and heritage artifacts, sharply distinguishing **admission** from **application**. The new synthesis asks which kinds of records from an earlier operative regime remain interpretable or recoverable following a putative molt.
+
+**Status:** conceptual cross-connection only. No uploaded source file copied, no experimental findings claimed, no license added. Strongest rival: ordinary archival, versioning, compilation and retrieval in a fixed meta-space.
+
 ## Next candidate revisions
 
 - Differentiate **actual loss of available operations** from changes in prioritization.

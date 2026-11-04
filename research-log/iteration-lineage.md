@@ -75,12 +75,21 @@ Preserves Gemini's proposals (state-space transformations, invariants, ontologic
 
 Surviving directions are recorded separately so disagreements remain visible. A minimal evaluation-drift counterexample sketch was added at `formalizations/eval_drift_counterexample.py`. Existing v1 and v2 toys were left unchanged. No license was added.
 
+## 2026-11-04 — Adversarial representational shedding probe (Grok)
+
+Added: [experiments/adversarial_shedding.py](../experiments/adversarial_shedding.py) and [experiments/adversarial-shedding-results.md](../experiments/adversarial-shedding-results.md).
+
+Minimal two-presentation system (atomic edges vs trusted macros) under structural edge removal and macro-trust invalidation. Compared stay/repair, archive recovery, and a fixed meta-interpreter on an external task suite.
+
+**Observed:** healthy macros reduced operation count; structural damage was fully recovered by archive or meta; representational invalidation collapsed macro performance to atomic performance. No condition produced a best continuation unavailable to the meta-interpreter.
+
+**Interpretation:** results are accounted for by ordinary caching, archival, and cache invalidation. The probe does not earn a claim of forced change in operative domain. Existing toys and prior negative results left intact.
+
 ## Next candidate revisions
 
-- Implement one or more of the exploration notes as small, budgeted experiments with explicit baselines.
-- Add a conventional meta-space simulator as a required competitor for any new rule-rewriting toy.
-- Test evaluator drift with both internal and external scores logged.
-- Investigate partial maps that fail transitivity.
+- A follow-up in which the two presentations are not locally expandable into each other.
+- An adversary that can attack the translation or trust mechanism under a shared budget.
+- Explicit repeated attacks that target the recovery path itself.
 
 ## Provenance discipline
 

@@ -28,6 +28,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Three-regime accessibility](formalizations/three-regime-accessibility.md) — design for distinguishing reprioritization, shedding, and loss of interpretation.
 - [Adversarial review record](reviews/gemini-adversarial-review-2026-11-04.md) — Gemini's proposals, Sol's corrections, and the surviving directions.
 - [Exploration notes](explorations/) — separate notes on executable rule transformations, cross-regime preservation, evaluation drift, partial continuity, ontological explosion, reflective stability, and meta-exploration heuristics.
+- [Adversarial shedding experiment](experiments/adversarial-shedding-results.md) — two-presentation probe under structural and representational pressure; archive/meta recovery wins; no non-embeddable domain change observed.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).
@@ -73,12 +74,13 @@ No license is granted by this repository. **No LICENSE file is included.** Publi
 
 *Cardigan on the outside; possibility space left open on the inside.*
 
-## Run the v2 toy and the drift sketch
+## Run the experiments
 
 ```bash
 python formalizations/toy_rewriter_v2.py
 python formalizations/eval_drift_counterexample.py
+python experiments/adversarial_shedding.py
 python -m unittest discover -s tests -v
 ```
 
-The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. No recursive state-space molting is demonstrated.
+The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probe shows cost differences and archive/meta recovery; it does not demonstrate a forced change of operative domain. No recursive state-space molting is demonstrated.

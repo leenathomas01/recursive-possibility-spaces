@@ -29,6 +29,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Adversarial review record](reviews/gemini-adversarial-review-2026-11-04.md) — Gemini's proposals, Sol's corrections, and the surviving directions.
 - [Exploration notes](explorations/) — separate notes on executable rule transformations, cross-regime preservation, evaluation drift, partial continuity, ontological explosion, reflective stability, and meta-exploration heuristics.
 - [Adversarial shedding experiment](experiments/adversarial-shedding-results.md) — two-presentation probe under structural and representational pressure; archive/meta recovery wins; no non-embeddable domain change observed.
+- [Adversarial shedding v3 correction](experiments/adversarial-shedding-v3-results.md) — source-valid macros, measured candidate expansions, uncrippled fixed-meta comparator, and a preserved account of why the earlier results were unsound.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).

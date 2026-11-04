@@ -55,12 +55,24 @@ The uploaded draft carried its own MIT template and citation metadata, but the d
 
 The earlier [cross-regime synthesis](../connections/circuit-libraries-and-molting.md) remains separate from this source collection, preserving the distinction between the original idea and our extrapolation.
 
+## 2026-11-04 — Three-regime accessibility design (Grok, incorporating Sol's refinement)
+
+Added: [three-regime-accessibility.md](../formalizations/three-regime-accessibility.md).
+
+Explicitly separates:
+
+- **A — Reprioritization** (old rules remain executable but deprioritized)
+- **B — Shedding** (removed from active set, retained in archive)
+- **C — Loss of interpretation** (records survive but cannot be directly executed)
+
+Requires matched total budgets, an external task suite, explicit recovery costs, and comparison against a fixed-meta-space simulator. Regime C is the point at which Circuit Library notions of recipe versus payload become testable inside the toy. No implementation of the three modes is claimed yet; the note only makes the next falsifiable distinction precise.
+
 ## Next candidate revisions
 
-- Differentiate **actual loss of available operations** from changes in prioritization.
+- Implement the three modes from the accessibility note and report results under equal budgets.
 - Differentiate **one-shot compilation** from learned recursive discovery.
 - Test evaluator drift only with an external outcome witness and independently specified validation.
-- Add a conventional meta-space simulator as an explicit explanatory competitor.
+- Add a conventional meta-space simulator as an explicit explanatory competitor (already required by the three-regime note).
 - Investigate representation changes that are not reducible to a single executable shortcut.
 
 ## Provenance discipline

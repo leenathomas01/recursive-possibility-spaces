@@ -56,7 +56,7 @@ This is *macro compilation with resource-bounded search*, not evidence of a genu
 
 - Run a fair **total-lifetime budget** across multiple task mixes and macro churn.
 - Include goal-aware search and compare against an optimized no-promotion baseline.
-- Actually remove or hide some old rules, separately from merely changing ordering, and measure true loss and retrieval cost.
+- Actually remove or hide some old rules, separately from merely changing ordering, and measure true loss and retrieval cost. See the three-regime design in [three-regime-accessibility.md](three-regime-accessibility.md) for the sharper distinction between reprioritization, shedding, and loss of interpretation.
 - Test macro preconditions on multi-token strings where composition may not be context-independent.
 - Introduce domains whose types or admissible operations change, then ask whether a fixed meta-space remains a simpler account.
 - Report failures of proposed 'molts' rather than filtering them out.

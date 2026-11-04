@@ -25,6 +25,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Candidate formal languages](formalizations/candidate-languages.md) — several rival translations, each with a built-in objection.
 - [Toy: operative-regime rewriter](formalizations/toy-operative-regime-rewriter.md) — a minimal, runnable sketch that tries to make regime shifts concrete under resource bounds.
 - [V2 executable macro rewriter](formalizations/toy-operative-regime-rewriter-v2.md) — corrected runnable toy with actual composites, a negative result, resource accounting, and recovery costs.
+- [Three-regime accessibility](formalizations/three-regime-accessibility.md) — design for distinguishing reprioritization, shedding, and loss of interpretation.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).

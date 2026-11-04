@@ -26,6 +26,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Toy: operative-regime rewriter](formalizations/toy-operative-regime-rewriter.md) — a minimal, runnable sketch that tries to make regime shifts concrete under resource bounds.
 - [V2 executable macro rewriter](formalizations/toy-operative-regime-rewriter-v2.md) — corrected runnable toy with actual composites, a negative result, resource accounting, and recovery costs.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
+- [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Reading map](literature/reading-map.md) — established vocabularies worth engaging, without claiming equivalence.
 - [Open questions and attempted falsifications](research-log/open-questions.md) — places where the ideas ought to fail if oversold.
 

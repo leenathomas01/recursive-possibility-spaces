@@ -85,6 +85,20 @@ Minimal two-presentation system (atomic edges vs trusted macros) under structura
 
 **Interpretation:** results are accounted for by ordinary caching, archival, and cache invalidation. The probe does not earn a claim of forced change in operative domain. Existing toys and prior negative results left intact.
 
+## 2026-11-04 — Adversarial shedding v3 correction (Sol)
+
+Grok's [adversarial shedding probe](../experiments/adversarial_shedding.py) and [reported results](../experiments/adversarial-shedding-results.md), commit [661b7f2](https://github.com/leenathomas01/recursive-possibility-spaces/commit/661b7f29d2b0cbb99c38384d0c5f17b82082c64e), were reviewed without modifying those files.
+
+**Found:** macro invocation previously checked the declared destination but not the current starting state or the validity of the macro's constituent edges. Consequently, an inapplicable shortcut could claim success, undermining macro-dependent tallies and the preservation-trap conclusion. The cost column also mixed successful path length with fixed failure penalties rather than measuring tested candidate transitions.
+
+**New files:** [v3 script](../experiments/adversarial_shedding_v3.py), [v3 results and limitations](../experiments/adversarial-shedding-v3-results.md), and [regression tests](../tests/test_adversarial_shedding_v3.py).
+
+**Local test:** seven targeted regression cases passed. With correct macro applicability and candidate expansion accounting, healthy macro search solved 6/6 versus atomic 5/6 under budget four. The fixed meta-interpreter given those **same** macros matched 6/6. Macro corruption detected by path certification was rejected; structural deletion did not create a new computational domain. These are bounded, deliberately chosen tasks—not a general empirical result.
+
+**Provenance decision:** keep the original incorrect numbers accessible, but flag them as superseded for any comparison involving macros. Do not confuse this correction with the earlier v2 operative-regime toy, which addressed an *unreachable* macro rather than an overly permissive one.
+
+**Unresolved:** certification/build costs were not charged, and a rival meta-interpreter was endowed with the original rule history. The next useful experiment must account for the cost of constructing and maintaining that history and/or test more substantively different interpreter representations.
+
 ## Next candidate revisions
 
 - A follow-up in which the two presentations are not locally expandable into each other.

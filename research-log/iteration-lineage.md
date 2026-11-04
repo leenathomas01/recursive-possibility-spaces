@@ -45,6 +45,16 @@ The source considered a library of parameter edits, circuit constructions, metho
 
 **Status:** conceptual cross-connection only. No uploaded source file copied, no experimental findings claimed, no license added. Strongest rival: ordinary archival, versioning, compilation and retrieval in a fixed meta-space.
 
+## 2026-11-04 — Author-approved integration of unpublished Circuit Library material
+
+Zee clarified that the Circuit Library archive had never been published and expressly authorized use of its contents.
+
+Added [Circuit Library source notes](../source-notes/circuit-library/README.md), including the repair/construction distinction, admission versus application gates, concrete transformation versus portable recipe, eight open questions, an illustrative YAML entry, and the heritage collection.
+
+The uploaded draft carried its own MIT template and citation metadata, but the destination repository's earlier **no-license** decision was retained. The archival texts are reorganized adaptations, not a byte-for-byte mirror. The draft licensing files are intentionally excluded, and empirical claims remain qualified pending verification against primary sources.
+
+The earlier [cross-regime synthesis](../connections/circuit-libraries-and-molting.md) remains separate from this source collection, preserving the distinction between the original idea and our extrapolation.
+
 ## Next candidate revisions
 
 - Differentiate **actual loss of available operations** from changes in prioritization.

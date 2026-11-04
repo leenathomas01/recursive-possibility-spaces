@@ -24,6 +24,8 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Learnability boundaries](perturbations/04-learnability-boundaries.md) — when an empirical boundary is relative to a learner and a task.
 - [Candidate formal languages](formalizations/candidate-languages.md) — several rival translations, each with a built-in objection.
 - [Toy: operative-regime rewriter](formalizations/toy-operative-regime-rewriter.md) — a minimal, runnable sketch that tries to make regime shifts concrete under resource bounds.
+- [V2 executable macro rewriter](formalizations/toy-operative-regime-rewriter-v2.md) — corrected runnable toy with actual composites, a negative result, resource accounting, and recovery costs.
+- [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Reading map](literature/reading-map.md) — established vocabularies worth engaging, without claiming equivalence.
 - [Open questions and attempted falsifications](research-log/open-questions.md) — places where the ideas ought to fail if oversold.
 
@@ -65,3 +67,12 @@ No license is granted by this repository. **No LICENSE file is included.** Publi
 ---
 
 *Cardigan on the outside; possibility space left open on the inside.*
+
+## Run the v2 toy
+
+```bash
+python formalizations/toy_rewriter_v2.py
+python -m unittest discover -s tests -v
+```
+
+The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. No recursive state-space molting is demonstrated.

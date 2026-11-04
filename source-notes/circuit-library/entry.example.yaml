@@ -1,0 +1,24 @@
+# Illustrative hypothetical schema. No implementation exists.
+id: reasoning-loop-repair
+kind: repair               # repair | construction | method | fragment | other
+purpose: >
+  Suppress a direction associated with repetitive looping in MLP layers.
+assumptions:
+  - Target exhibits looping on long-form reasoning.
+  - Underlying capability is already present.
+artifacts:
+  transformation: null     # architecture-bound weight changes, if available
+  method: null             # construction or discovery procedure, if available
+tests:
+  - id: loop-rate
+    checks: Token-limit hit rate decreases.
+  - id: collateral
+    checks: Unrelated benchmarks do not regress.
+provenance:
+  derived_from: []
+  created_by: unknown
+  created: 2026-11-03
+application:
+  compatible_architectures: []
+  requires_authorization: true
+admission_note: Usefulness not required for storage.

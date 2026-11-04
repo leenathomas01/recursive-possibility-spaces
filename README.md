@@ -26,6 +26,8 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Toy: operative-regime rewriter](formalizations/toy-operative-regime-rewriter.md) — a minimal, runnable sketch that tries to make regime shifts concrete under resource bounds.
 - [V2 executable macro rewriter](formalizations/toy-operative-regime-rewriter-v2.md) — corrected runnable toy with actual composites, a negative result, resource accounting, and recovery costs.
 - [Three-regime accessibility](formalizations/three-regime-accessibility.md) — design for distinguishing reprioritization, shedding, and loss of interpretation.
+- [Adversarial review record](reviews/gemini-adversarial-review-2026-11-04.md) — Gemini's proposals, Sol's corrections, and the surviving directions.
+- [Exploration notes](explorations/) — separate notes on executable rule transformations, cross-regime preservation, evaluation drift, partial continuity, ontological explosion, reflective stability, and meta-exploration heuristics.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).
@@ -71,10 +73,11 @@ No license is granted by this repository. **No LICENSE file is included.** Publi
 
 *Cardigan on the outside; possibility space left open on the inside.*
 
-## Run the v2 toy
+## Run the v2 toy and the drift sketch
 
 ```bash
 python formalizations/toy_rewriter_v2.py
+python formalizations/eval_drift_counterexample.py
 python -m unittest discover -s tests -v
 ```
 

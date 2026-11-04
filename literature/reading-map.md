@@ -25,9 +25,10 @@ This file gives established vocabularies in which parts of the repository's spec
 
 ## Formal structures
 
-- **Category theory:** objects and morphisms offer a candidate language for relating distinct descriptive domains; do not assume a single encompassing category exists.
+- **Category theory:** objects and morphisms offer a candidate language for relating distinct descriptive domains; do not assume a single encompassing category exists. Partial morphisms or spans may be more relevant than total functors when continuity is incomplete.
 - **Type theory and dependent types:** changing admissible operations when types or constraints change.
 - **Transition systems and labeled operational semantics:** useful baselines for explaining exactly what the stronger 'molting' hypothesis is trying to transcend.
+- **Term rewriting and graph grammars:** established frameworks for systems whose rules can themselves be rewritten. Any experiment that changes operative rules should be compared against these.
 - **Information theory and rate-distortion:** an accounting language for continuity, lost information, and reconstruction.
 
 **Challenge:** any formalization risks smuggling in the stable meta-space we intended to question.
@@ -40,6 +41,11 @@ This file gives established vocabularies in which parts of the repository's spec
 - **Autopoiesis:** a historically significant vocabulary for self-producing organization; not a demonstrated account of AI self-improvement.
 
 **Challenge:** biological metaphors can smuggle in agency, identity, purpose, or consciousness without evidence.
+
+## Verification and reflection
+
+- Classic limitative results (Gödel incompleteness, Löb's theorem) apply only under stated formal conditions. They are not generic explanations for difficulties of self-modification.
+- Resource-bounded verification, sandboxing, and external checking are engineering responses whose limits are not settled by incompleteness alone.
 
 ## Specific recent prompt
 
@@ -55,3 +61,4 @@ Treat this as a pointer to the reported study and examine the primary methods, m
 4. Are transformations independently evaluated?
 5. What distinguishes adaptive responsiveness from genuine improvement?
 6. Does a proposed 'new space' reduce to a larger old one?
+7. Are limitative theorems being applied only where their hypotheses hold?

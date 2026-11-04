@@ -67,13 +67,20 @@ Explicitly separates:
 
 Requires matched total budgets, an external task suite, explicit recovery costs, and comparison against a fixed-meta-space simulator. Regime C is the point at which Circuit Library notions of recipe versus payload become testable inside the toy. No implementation of the three modes is claimed yet; the note only makes the next falsifiable distinction precise.
 
+## 2026-11-04 — Gemini adversarial review and Sol critique integrated (Grok)
+
+Added: [reviews/gemini-adversarial-review-2026-11-04.md](../reviews/gemini-adversarial-review-2026-11-04.md) and the exploration notes under `explorations/`.
+
+Preserves Gemini's proposals (state-space transformations, invariants, ontological explosion, metric drift, reflective stability, category-theoretic tools, meta-exploration heuristics) alongside Sol's corrections (molting need not expand; invariants do not automatically preserve external properties; limitative theorems require their formal hypotheses; category theory is descriptive; self-modification ≠ authorized self-modification; no global metric assumed).
+
+Surviving directions are recorded separately so disagreements remain visible. A minimal evaluation-drift counterexample sketch was added at `formalizations/eval_drift_counterexample.py`. Existing v1 and v2 toys were left unchanged. No license was added.
+
 ## Next candidate revisions
 
-- Implement the three modes from the accessibility note and report results under equal budgets.
-- Differentiate **one-shot compilation** from learned recursive discovery.
-- Test evaluator drift only with an external outcome witness and independently specified validation.
-- Add a conventional meta-space simulator as an explicit explanatory competitor (already required by the three-regime note).
-- Investigate representation changes that are not reducible to a single executable shortcut.
+- Implement one or more of the exploration notes as small, budgeted experiments with explicit baselines.
+- Add a conventional meta-space simulator as a required competitor for any new rule-rewriting toy.
+- Test evaluator drift with both internal and external scores logged.
+- Investigate partial maps that fail transitivity.
 
 ## Provenance discipline
 

@@ -99,11 +99,24 @@ Grok's [adversarial shedding probe](../experiments/adversarial_shedding.py) and 
 
 **Unresolved:** certification/build costs were not charged, and a rival meta-interpreter was endowed with the original rule history. The next useful experiment must account for the cost of constructing and maintaining that history and/or test more substantively different interpreter representations.
 
+## 2026-11-05 — Gemini ontology-shear report preserved and audited; causal-role experiment added (Grok)
+
+Preserved: [reviews/gemini-ontology-shear-original.md](../reviews/gemini-ontology-shear-original.md).
+
+Audit: [reviews/ontology-shear-adversarial-audit.md](../reviews/ontology-shear-adversarial-audit.md).  
+Key findings: detector reduces to attribute existence; MDL not implemented; behavioral tests too narrow; "connectionist" label unsupported; hollow-out described but not coded. Causal-role distinction survives; ontology-shear claim does not.
+
+New experiment: [experiments/causal_role_preservation.py](../experiments/causal_role_preservation.py), [results](../experiments/causal-role-preservation-results.md), [tests](../tests/test_causal_role_preservation.py).
+
+**Observed:** Active intervention changes output; hollowed intervention does not; translated intervention succeeds via mapping. Historian distinguishes all three; Archivist cannot separate active from translated without path information; Behavioral sees equivalence on the tested domain. 7/7 tests passed.
+
+**Interpretation:** ordinary causal-dependency tracking accounts for the results. No recursive molting. Prior experiments left intact. No license added.
+
 ## Next candidate revisions
 
-- A follow-up in which the two presentations are not locally expandable into each other.
-- An adversary that can attack the translation or trust mechanism under a shared budget.
-- Explicit repeated attacks that target the recovery path itself.
+- An adversary that can attack the translation map itself under a shared budget.
+- Explicit cost of maintaining versus discarding the hollowed artifact.
+- A case in which even the Execution Historian is underdetermined.
 
 ## Provenance discipline
 

@@ -27,9 +27,12 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [V2 executable macro rewriter](formalizations/toy-operative-regime-rewriter-v2.md) — corrected runnable toy with actual composites, a negative result, resource accounting, and recovery costs.
 - [Three-regime accessibility](formalizations/three-regime-accessibility.md) — design for distinguishing reprioritization, shedding, and loss of interpretation.
 - [Adversarial review record](reviews/gemini-adversarial-review-2026-11-04.md) — Gemini's proposals, Sol's corrections, and the surviving directions.
+- [Ontology-shear report (Gemini)](reviews/gemini-ontology-shear-original.md) — preserved original artifact.
+- [Ontology-shear audit](reviews/ontology-shear-adversarial-audit.md) — independent review of detector circularity, missing MDL, and over-claim.
 - [Exploration notes](explorations/) — separate notes on executable rule transformations, cross-regime preservation, evaluation drift, partial continuity, ontological explosion, reflective stability, and meta-exploration heuristics.
 - [Adversarial shedding experiment](experiments/adversarial-shedding-results.md) — two-presentation probe under structural and representational pressure; archive/meta recovery wins; no non-embeddable domain change observed.
 - [Adversarial shedding v3 correction](experiments/adversarial-shedding-v3-results.md) — source-valid macros, measured candidate expansions, uncrippled fixed-meta comparator, and a preserved account of why the earlier results were unsound.
+- [Causal-role preservation experiment](experiments/causal-role-preservation-results.md) — active vs hollowed vs translated artifacts; observers with different access; ordinary causal tracking suffices.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).
@@ -81,7 +84,9 @@ No license is granted by this repository. **No LICENSE file is included.** Publi
 python formalizations/toy_rewriter_v2.py
 python formalizations/eval_drift_counterexample.py
 python experiments/adversarial_shedding.py
+python experiments/adversarial_shedding_v3.py
+python experiments/causal_role_preservation.py
 python -m unittest discover -s tests -v
 ```
 
-The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probe shows cost differences and archive/meta recovery; it does not demonstrate a forced change of operative domain. No recursive state-space molting is demonstrated.
+The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probes and the causal-role experiment show ordinary caching, archival, redirection, and causal-dependency tracking. No recursive state-space molting is demonstrated.

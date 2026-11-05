@@ -124,11 +124,19 @@ Following the [causal-role V1 experiment](../experiments/causal_role_preservatio
 
 **Commit decision:** archival and analysis only. The V1 code and earlier evidence remain untouched. V2 implementation, validation, and any stronger theoretical claims are **not yet authorized or demonstrated**; future changes require a separate instruction and post-implementation audit.
 
+## 2026-11-05 — Causal-role V2 implemented (Grok)
+
+Added: [experiments/causal_role_preservation_v2.py](../experiments/causal_role_preservation_v2.py), [results](../experiments/causal-role-preservation-v2-results.md), [tests](../tests/test_causal_role_preservation_v2.py).
+
+Implements the pre-V2 gate. Restricted active/inert pair (intervene on `high_add`, query only inputs < 5) produces identical transcripts; both classified `no_effect_on_tested_inputs`. Adding sensitive input 7 separates them. Null effect is never treated as provenance contradiction. Side-effect system shows local effect without path verification. 11/11 tests passed.
+
+**Interpretation:** ordinary differential testing under a declared interface. No recursive molting. V1 and audit records left unchanged. No license added.
+
 ## Next candidate revisions
 
-- An adversary that can attack the translation map itself under a shared budget.
-- Explicit cost of maintaining versus discarding the hollowed artifact.
-- A case in which even the Execution Historian is underdetermined.
+- A richer-access baseline that records actual reads, reported separately from the black-box harness.
+- An adversary that detects and alters behavior under the harness.
+- Explicit cost of retaining versus discarding inert artifacts.
 
 ## Provenance discipline
 

@@ -34,6 +34,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Adversarial shedding v3 correction](experiments/adversarial-shedding-v3-results.md) — source-valid macros, measured candidate expansions, uncrippled fixed-meta comparator, and a preserved account of why the earlier results were unsound.
 - [Causal-role preservation experiment](experiments/causal-role-preservation-results.md) — active vs hollowed vs translated artifacts; observers with different access; ordinary causal tracking suffices.
 - [Parallel provenance audits (Gemini, Grok, Sol)](reviews/parallel-provenance-audits-2026-11-05.md) — independent reviews of self-reported paths, underdetermined interventions, observer trust boundaries, and the pre-V2 experimental gate; no V2 detector claimed.
+- [Causal-role V2](experiments/causal-role-preservation-v2-results.md) — indistinguishability pair under restricted interface; null effect never treated as contradiction; sensitive observation separates active from inert.
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).
@@ -87,7 +88,8 @@ python formalizations/eval_drift_counterexample.py
 python experiments/adversarial_shedding.py
 python experiments/adversarial_shedding_v3.py
 python experiments/causal_role_preservation.py
+python experiments/causal_role_preservation_v2.py
 python -m unittest discover -s tests -v
 ```
 
-The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probes and the causal-role experiment show ordinary caching, archival, redirection, and causal-dependency tracking. No recursive state-space molting is demonstrated.
+The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probes and the causal-role experiments show ordinary caching, archival, redirection, and differential testing under declared interfaces. No recursive state-space molting is demonstrated.

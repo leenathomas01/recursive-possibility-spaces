@@ -112,6 +112,18 @@ New experiment: [experiments/causal_role_preservation.py](../experiments/causal_
 
 **Interpretation:** ordinary causal-dependency tracking accounts for the results. No recursive molting. Prior experiments left intact. No license added.
 
+## 2026-11-05 — Independent provenance audits and pre-V2 gate (Gemini, Grok; Sol review)
+
+Following the [causal-role V1 experiment](../experiments/causal_role_preservation.py), Zee commissioned **two isolated review rounds**, one for Gemini and one for Grok. Neither investigator was authorized to modify the repository. Both reports and Sol's independently source-checked analysis are **summarized with attribution**, not reproduced verbatim, in [parallel provenance audits](../reviews/parallel-provenance-audits-2026-11-05.md).
+
+**Shared findings:** V1's historian trusts self-written `execution_path`, its archivist performs interventions beyond passive artifact access, reads do not imply causal use, and finite interventions need sensitivity and scope. Grok additionally reported a local standalone differential-testing prototype (complete source and raw logs not supplied for independent verification).
+
+**Shared new overreach:** Both suggested that a claimed active path plus no observed effect could establish **contradicted provenance**. An active high-branch parameter changed under a low-branch test is a counterexample: no change is observed despite genuine dependence on another input. No-effect on tested inputs warrants an inconclusive verdict unless stronger evidence is present.
+
+**Sol's additions:** distinguish artifact presence, observed reads, intervention-backed local effects, and independently verified/contradicted provenance; specify trust boundary; avoid treating external wrapper logs as complete internal traces; use a same-observation active/inert pair to test abstention; avoid claiming a fair baseline when the conventional debugger has greater privileges; preserve translated intervention semantics as distinct from native execution.
+
+**Commit decision:** archival and analysis only. The V1 code and earlier evidence remain untouched. V2 implementation, validation, and any stronger theoretical claims are **not yet authorized or demonstrated**; future changes require a separate instruction and post-implementation audit.
+
 ## Next candidate revisions
 
 - An adversary that can attack the translation map itself under a shared budget.

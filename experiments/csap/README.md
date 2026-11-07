@@ -4,6 +4,8 @@ Small, reproducible research instrument for examining whether compact natural-la
 
 **This is a measurement harness, not a demonstration engineered to succeed.**
 
+**Status — audit note (2026-11-07):** V1 contains verified measurement and isolation defects and is **not yet valid for real-model capability claims**. In particular, the claimed cross-session and implied-only conditions are not implemented as described, and the committed JSONL is a placeholder. The original V1 code and preregistration are preserved for traceability. See [CSAP V1 audit, observations, and unresolved research directions](../../research-log/csap-v1-audit-and-directions.md). This retrospective note does not select or prescribe a V2.
+
 ## What it does
 - Three regimes: conventional schemas, novel compositions, seeded arbitrary episode-specific rules.
 - Conditions: null, compact, paraphrase, misleading, full-specification, cross-session isolation.

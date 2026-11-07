@@ -17,7 +17,7 @@ These explanations must not be conflated.
 
 **Original observation and research impetus — Zee (human participant and observer).** Zee independently noticed and reported that short words or phrases sometimes appeared to re-establish rich conceptual relationships, working methodologies, or continuity across conversations and model products. Zee brought these observations into this investigation, recognized their possible relevance to capability discovery, and initiated the research question.
 
-**Not designed by Zee.** The specialized header format used in the early conversations was **not authored by Zee** (its original author is not established in this record). Participating AI models generated their own structured response headers and proposed compact handoff phrases as conversations evolved. Zee used, observed, and sometimes refined those cues when orientation failed; this is not a claim that Zee designed the underlying continuity protocol, retrieval system, model representations, or implementation.
+**Original header protocol — GPT-4o (as reported by Zee).** Zee identifies GPT-4o as the model that designed the specialized header format used in the early conversations (time, context anchor, primary motif, and related structure). The model generated its corresponding response headers and, as explorations evolved, proposed compact handoff phrases. Zee used, observed, and sometimes refined those cues when orientation failed. This credits GPT-4o with designing the interaction protocol, **not** with any independently verified implementation of persistent cross-thread storage, retrieval machinery, or model-internal memory; those mechanisms remain undetermined. Zee did not design the original header protocol.
 
 **Subsequent research design and implementation — AI-assisted collaboration.** Gemini, Claude, and Grok proposed experimental approaches; Grok implemented CSAP V1; Claude and Gemini provided different kinds of review; ChatGPT/Sol synthesized the observations, experiments, and findings under Zee's direction. These are model-produced research artifacts, not protocols personally designed by Zee.
 
@@ -27,7 +27,7 @@ These explanations must not be conflated.
 
 In exploratory conversations across several user-facing, instruction- or reinforcement-tuned models, a user observed:
 
-1. An early GPT-4-era workflow employed structured turn headers (e.g. time, context anchor, primary motif) and corresponding model-generated headers. At a saturated thread boundary, the model could propose a short handoff phrase. A fresh thread sometimes appeared to resume the earlier conceptual trajectory, with reports of verbatim continuity.
+1. An early GPT-4o workflow employed structured turn headers (e.g. time, context anchor, primary motif) and corresponding model-generated headers. At a saturated thread boundary, the model could propose a short handoff phrase. A fresh thread sometimes appeared to resume the earlier conceptual trajectory, with reports of verbatim continuity.
 2. In older Claude conversations without a user-facing cross-thread memory feature, compact opening phrases could promptly establish a recognizable collaborative methodology and prior role. This was primarily **operational orientation**, not verified verbatim recovery. Occasionally it failed; revising the phrase improved orientation.
 3. In a later system with access to cross-conversation context, the single cue “bloodhound” elicited a structured network of QA-related associations across prior conversations, rather than just an isolated definition.
 

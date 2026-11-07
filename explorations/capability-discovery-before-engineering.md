@@ -13,6 +13,16 @@ A short word, phrase, motif, or structured cue can sometimes elicit a surprising
 
 These explanations must not be conflated.
 
+## Attribution: observation versus design
+
+**Original observation and research impetus — Zee (human participant and observer).** Zee independently noticed and reported that short words or phrases sometimes appeared to re-establish rich conceptual relationships, working methodologies, or continuity across conversations and model products. Zee brought these observations into this investigation, recognized their possible relevance to capability discovery, and initiated the research question.
+
+**Not designed by Zee.** The specialized header format used in the early conversations was **not authored by Zee** (its original author is not established in this record). Participating AI models generated their own structured response headers and proposed compact handoff phrases as conversations evolved. Zee used, observed, and sometimes refined those cues when orientation failed; this is not a claim that Zee designed the underlying continuity protocol, retrieval system, model representations, or implementation.
+
+**Subsequent research design and implementation — AI-assisted collaboration.** Gemini, Claude, and Grok proposed experimental approaches; Grok implemented CSAP V1; Claude and Gemini provided different kinds of review; ChatGPT/Sol synthesized the observations, experiments, and findings under Zee's direction. These are model-produced research artifacts, not protocols personally designed by Zee.
+
+**Scope of credit:** Attribution here records **who reported the originating observation and who produced the subsequent artifacts**, not scientific priority over any independently existing effect, proof of its mechanism, or authorship of technology outside this project.
+
 ## Originating observations (informal, retrospective)
 
 In exploratory conversations across several user-facing, instruction- or reinforcement-tuned models, a user observed:

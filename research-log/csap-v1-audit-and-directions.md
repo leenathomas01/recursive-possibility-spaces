@@ -5,6 +5,16 @@
 **Scope:** [CSAP V1](../experiments/csap/) and the prior [research provocation](../explorations/capability-discovery-before-engineering.md).  
 **Implementation provenance:** Grok reported initial commit `b06ffb248c9aa4b70dde645c03202cb78b4e1770`, followed by small commits on `main`. Claude reported auditing HEAD `ddeaba5`. File paths below refer to the inspected `main` implementation on 2026-11-07.
 
+## Attribution: observation versus design
+
+**Original observation and research impetus — Zee (human participant and observer).** Zee independently noticed and reported that short words or phrases sometimes appeared to re-establish rich conceptual relationships, working methodologies, or continuity across conversations and model products. Zee brought these observations into this investigation, recognized their possible relevance to capability discovery, and initiated the research question.
+
+**Not designed by Zee.** The specialized header format used in the early conversations was **not authored by Zee** (its original author is not established in this record). Participating AI models generated their own structured response headers and proposed compact handoff phrases as conversations evolved. Zee used, observed, and sometimes refined those cues when orientation failed; this is not a claim that Zee designed the underlying continuity protocol, retrieval system, model representations, or implementation.
+
+**Subsequent research design and implementation — AI-assisted collaboration.** Gemini, Claude, and Grok independently proposed experimental approaches; Grok implemented CSAP V1; Claude supplied a code-level critique; Gemini supplied a conceptual critique without code access; ChatGPT/Sol synthesized the reviews, inspected repository source, and documented findings with Zee's direction. These contributions should not be retroactively credited to Zee as personally engineered methods.
+
+**Scope of credit:** Attribution here records **who reported the originating observation and who produced the subsequent artifacts**, not scientific priority over any independently existing effect, proof of its mechanism, or authorship of technology outside this project.
+
 ## 1. Why this exists
 
 The originating question was **not** simply whether short prompts can alter a model's output. It was whether models can *discover, express, and reactivate rich conceptual or procedural configurations* from compact cues—sometimes across conversational boundaries—with much less explicit orientation than a conventional handoff document.

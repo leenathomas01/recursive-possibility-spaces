@@ -39,6 +39,14 @@ An invariant is not automatically portable. A causal dependency in the source ma
 
 The intermediate representation is the critical and most contestable step. If it is rich enough to contain a ready-made compiler for the target, the experiment has engineered the result.
 
+### Archival route: a target is optional
+
+The five steps above describe **one way to evaluate a particular transfer claim**, not an admission requirement for the Circuit Library or this broader research archive. We can stop after source-side excavation: preserve a candidate functional property, causal dependency, operating envelope, constraint, failed probe, or reconstruction recipe with its evidence and unresolved questions. **No target domain, immediate use, performance advantage, or successful transfer is required for preservation.**
+
+Cross-domain reconstruction is therefore one variant of exploration and possible later composition, not a compulsory source-to-target production pipeline. A future target may be chosen if an application or test suggests one. Only then do we owe that specific transfer claim a target specification, relevant baselines, cost accounting, and adversarial verification. A library entry may remain a hypothesis, witness, negative result, or historical artifact indefinitely.
+
+This does not erase the difference between the neural Circuit Library concept and a broader collection of abstract mechanisms. Nor does recording a possible operation authorize enacting it. See [circuit libraries and molting](circuit-libraries-and-molting.md) for the payload / recipe / witness / lineage distinction and the admission/application boundary.
+
 ## 4. What AI-mediated exploration might contribute
 
 - Faster enumeration of candidate invariants from traces than unaided human inspection.

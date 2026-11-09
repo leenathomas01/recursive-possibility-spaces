@@ -44,6 +44,16 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Reading map](literature/reading-map.md) — established vocabularies worth engaging, without claiming equivalence.
 - [Open questions and attempted falsifications](research-log/open-questions.md) — places where the ideas ought to fail if oversold.
 
+## Operating rule: admission is not application
+
+**This is an excavation notebook, not a pipeline that must end in a target use case.** A mechanism, candidate invariant, failed reconstruction, unusual operation, incomplete recipe, constraint, or historical artifact may be characterized and preserved **without** a destination, an executable implementation, an improvement claim, or a demonstrated utility. Unknown future relevance is an acceptable status, not a deficiency to repair.
+
+The [Circuit Library notes](source-notes/circuit-library/README.md) distinguish **admission** from **application**. That distinction also guides this broader notebook: preservation records what was found and what is or is not known about it; application is an optional later decision involving a concrete target, compatible primitives, verification, resource cost, provenance, and authorization. **Reasoning can discover relevance; it cannot mint permission.**
+
+**Cross-domain invariant reconstruction is one optional excavation variant, not the repository's required workflow or final destination.** A source mechanism can yield a candidate recipe, causal-role hypothesis, operating-envelope witness, incompatibility, or negative result worth archiving even when no target domain has been selected. If we later make a claim about transfer, *then* target choice and fair baselines become necessary to test that claim—not to justify the record's existence. A broad mechanism archive inspired by the neural Circuit Library is not a claim that every abstract property is literally a neural circuit.
+
+**Documentation is the non-negotiable part:** distinguish hypothesis from result; record assumptions, provenance, evidence, counterexamples, known defects, and uncertainties; preserve lineage rather than quietly polishing failures into successes. Exploration needs no prior success, but reported evidence must remain accountable.
+
 ## The core intellectual wager
 
 There may be meaningful kinds of adaptive transformation inadequately captured by a single fixed model of 'improvement.' Or a richer conventional formalism may capture every one of them. **Both outcomes would be interesting.**

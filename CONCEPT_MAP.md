@@ -14,6 +14,7 @@ This map is intentionally nonhierarchical. It collects hypotheses that may be mu
 | Open-ended operation discovery | Can systems invent useful transformation primitives? | Search and validation may cost more than benefit |
 | Cross-molt continuity | What survives when the prior coordinate system does not? | Continuity may be undefined or experimentally unverifiable |
 | Evaluation across moltings | What counts as improvement if measures change? | Self-serving evaluator drift and Goodhart effects |
+| Cross-domain invariant reconstruction | Can load-bearing properties of a mature mechanism be extracted and reimplemented in a different domain grammar more effectively than ordinary translation or target search? | The intermediate representation may already be an ordinary mapping; baselines may match performance |
 
 ## Relationships worth testing
 

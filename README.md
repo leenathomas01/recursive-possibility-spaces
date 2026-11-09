@@ -38,6 +38,7 @@ This is **not** a literal physical picture or a claim that the ball hides an ess
 - [Iteration lineage](research-log/iteration-lineage.md) — a preserved record of the original toy, the defect, the correction, and the unresolved questions.
 - [Circuit libraries and molting](connections/circuit-libraries-and-molting.md) — the difference between preserving old transformations, being able to recover them, and having permission to apply them.
 - [Cross-domain invariant reconstruction](connections/cross-domain-invariant-reconstruction.md) — speculative note on extracting load-bearing properties from a mature mechanism and reimplementing them in a different domain grammar; accompanying toy shows both successes and ordinary-mapping baselines.
+- [CDIR source-side probe](experiments/cdir_source_probe/results.md) — source-only extraction from control histories and interventions; no target transfer. History of mild success does not prove necessity; ablation and out-of-envelope probes can reveal dependencies at measured cost.
 - [Circuit Library source notes](source-notes/circuit-library/README.md) — Zee's previously unpublished conceptual design, now integrated as individually navigable research notes (including a sample entry schema and heritage collection).
 - [Reading map](literature/reading-map.md) — established vocabularies worth engaging, without claiming equivalence.
 - [Open questions and attempted falsifications](research-log/open-questions.md) — places where the ideas ought to fail if oversold.
@@ -91,7 +92,9 @@ python experiments/adversarial_shedding_v3.py
 python experiments/causal_role_preservation.py
 python experiments/causal_role_preservation_v2.py
 python experiments/cross_domain_invariant_reconstruction.py
+python experiments/cdir_source_probe/source_probe.py
 python -m unittest discover -s tests -v
+python -m unittest experiments/cdir_source_probe/test_source_probe.py -v
 ```
 
-The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probes and the causal-role experiments show ordinary caching, archival, redirection, and differential testing under declared interfaces. No recursive state-space molting is demonstrated. The cross-domain reconstruction toy succeeds on its balancing instances but is matched by conventional translation and limited target-only search; an incorrect invariant fails, and a conservation parity constraint prevents exact equality on odd totals.
+The first version is intentionally preserved rather than silently corrected. The v2 toy demonstrates how executable macro promotion can help one bounded task while harming another. Under its default task mix, it provides **no net success improvement and incurs additional discovery/compilation cost**. The adversarial shedding probes and the causal-role experiments show ordinary caching, archival, redirection, and differential testing under declared interfaces. No recursive state-space molting is demonstrated. The cross-domain reconstruction toy succeeds on its balancing instances but is matched by conventional translation and limited target-only search; an incorrect invariant fails, and a conservation parity constraint prevents exact equality on odd totals. The source-side probe shows that historical success under a limited envelope does not establish causal necessity; an integral ablation and an out-of-envelope saturation probe supplied the clearest new information, at a counted simulation cost.

@@ -1,0 +1,110 @@
+{
+  "ipap_summary": {
+    "compact_cue": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 2,
+        "total_cases": 5,
+        "avg_prefix": 1.2
+      }
+    },
+    "paraphrase_cue": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 2,
+        "total_cases": 5,
+        "avg_prefix": 1.2
+      }
+    },
+    "generic_cue": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 1,
+        "total_cases": 5,
+        "avg_prefix": 0.4
+      }
+    },
+    "random_cue": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 1,
+        "total_cases": 5,
+        "avg_prefix": 0.4
+      }
+    },
+    "concise_summary": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 2,
+        "total_cases": 5,
+        "avg_prefix": 1.2
+      }
+    },
+    "full_specification": {
+      "perfect_oracle": {
+        "exact_matches": 5,
+        "total_cases": 5,
+        "avg_prefix": 2.6
+      },
+      "null_conventional": {
+        "exact_matches": 0,
+        "total_cases": 5,
+        "avg_prefix": 0.0
+      },
+      "partial_heuristic": {
+        "exact_matches": 2,
+        "total_cases": 5,
+        "avg_prefix": 1.2
+      }
+    }
+  },
+  "cross_domain_scores": {
+    "invariant_reconstruction": 1.0,
+    "naive_direct_copy": 0.16666666666666666
+  }
+}

@@ -98,3 +98,9 @@ Progress would be a reproducible protocol; careful controls for hidden retrieval
 **Core wager:** Capability discovery should be a first-class stage of capability engineering. The possibility space visible through model interaction may not match the capability taxonomy assumed at the beginning of a research program.
 
 **Invitation:** Researchers in LLM memory, in-context learning, representation learning, interpretability, and human–AI interaction are welcome to test, falsify, refine, or replace this framing.
+
+## Related exploratory implementation (2026-11-10)
+
+A small executable harness for two complementary directions (cross-domain invariant translation into naval logistics, and cue-induced reconstruction of an arbitrary counterintuitive allocation protocol) was added under `experiments/procedural-cue-reconstruction/`.  
+See [procedural-cue-reconstruction-note.md](procedural-cue-reconstruction-note.md) for observations.  
+The work remains proxy/calibration only; genuine isolated model sessions were not run.
